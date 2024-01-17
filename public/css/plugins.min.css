@@ -1,0 +1,9 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css");
+@import url("plugins/animate.min.css");
+@import url("plugins/magnific-popup.css");
+@import url("plugins/owl.carousel.min.css");
+@import url("plugins/owl.theme.default.min.css");
+@import url("plugins/YouTubePopUp.css");
+.pt-40 {
+    padding-top: 40px;
+}

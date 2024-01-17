@@ -1,0 +1,70 @@
+{
+  "name": "SolanaBeachBot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nfteyez/sol-rayz": "^0.8.2",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/spl-token-registry": "^0.2.517",
+    "@solana/wallet-adapter-base": "^0.7.0",
+    "@solana/wallet-adapter-react": "^0.13.1",
+    "@solana/wallet-adapter-react-ui": "^0.6.1",
+    "@solana/wallet-adapter-wallets": "^0.11.3",
+    "@solana/web3.js": "^1.31.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.4.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-toastify": "^4.1.0",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bn": "^1.0.5",
+    "bootstrap": "^5.1.0",
+    "bs58": "^4.0.1",
+    "buffer-layout": "^1.2.2",
+    "envfile": "^6.17.0",
+    "ethers": "^5.4.5",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "papaparse": "^5.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^8.0.3",
+    "swiper": "^7.2.0",
+    "theme-ui": "^0.10.0",
+    "typescript": "^4.5.4",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

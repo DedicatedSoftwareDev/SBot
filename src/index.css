@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+/* html, body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1D1D1D;
+} */
+
+/* body {
+  margin: 0;
+  font-family: 'Rubik';
+  color: #254cdd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.progress-bar {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg,#3f78ff,#ea4aaa 17%,#b34bff 34%,#01feff 51%,#ffd33d 68%,#ea4aaa 85%,#b34bff);
+  background-size: 300% 100%;
+  animation: progress-animation 2s linear infinite;
+}
