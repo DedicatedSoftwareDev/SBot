@@ -27,6 +27,8 @@ import {
 } from "@solana/wallet-adapter-react-ui";
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base/lib/adapter';
 
+
+/*This is main app.*/
 function App() {
   const network = clusterApiUrl('devnet');
   const wallets = useMemo(() => [
