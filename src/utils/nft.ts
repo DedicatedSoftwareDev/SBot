@@ -145,9 +145,6 @@ export default async function mintNFT (
   const mintnftinterfaceInstruction = await mintNFTS(wallet, price, new_token_id)
   instructions.push(mintnftinterfaceInstruction)
   
-  /**
-   * This function is for Transaction with Retry
-   */
   try {
     const { txid } = await sendTransactionWithRetry(
       connection,
